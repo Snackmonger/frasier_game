@@ -29,10 +29,6 @@ player = pygame.Rect(700, 300, PLAYER_WIDTH, PLAYER_HEIGHT)
 PLAYER_IMAGE = pygame.image.load(os.path.join('Assets', 'frasier_crane.png'))
 PLAYER = pygame.transform.scale(PLAYER_IMAGE, (PLAYER_WIDTH, PLAYER_HEIGHT))
 
-
-
-
-
 clock = pygame.time.Clock()
 
 def main_loop():

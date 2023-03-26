@@ -21,8 +21,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="character_sprites.py" />
+    <Compile Include="extract_sprites.py" />
     <Compile Include="frasier_game.py" />
     <Compile Include="main.py" />
+    <Compile Include="spritesheet.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
