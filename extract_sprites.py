@@ -17,7 +17,10 @@ pygame.display.set_caption("Spritesheet Lesson")
 
 
 sprite_sheet_image = pygame.image.load(os.path.join("Assets", "doux.png")).convert_alpha()
+# Defining a variable to represent the whole image.
 sprite_sheet = spritesheet.SpriteSheet(sprite_sheet_image)
+# Creating an instance of the SpriteSheet class in the spritesheet.py file,
+# using sprite_sheet_image as the image data.
 
 
 BACKGROUND = (50, 50, 50)
